@@ -20,6 +20,15 @@
 				display: none;
 		}
 	}
+	.catalog {
+		&__content {
+			justify-content: center;
+		}
+		
+		&-item {
+			margin: 10px 10px;
+		}
+	}
 }
 
 @media (max-width: 767px) {
@@ -45,6 +54,31 @@
 		&__description {
 			font-size: 17px;
 			margin-top: 60px;
+		}
+	}
+	.carousel {
+		&__inner {
+			width: 750px;
+		}
+	}
+	.prev, .next {
+		display: none;
+	}
+	.tns-slider {
+		img {
+			width: 80%;
+		}
+	}
+	.catalog {
+		&__content {
+			justify-content: center;
+		}
+		&-item {
+			margin: 10px 10px;
+		}
+		&__tab {
+			width: 150px;
+			font-size: 15px;
 		}
 	}
 }
@@ -113,6 +147,17 @@
 		.feed-form {
 			width: 290px;
 			margin: 36px auto;
+		}
+	}
+	.catalog {
+		.title {
+			font-size: 25px;
+		}
+		&__tabs {
+			margin-top: 40px;
+			height: 180px;
+			flex-direction: column;
+			justify-content: space-between;
 		}
 	}
 }
